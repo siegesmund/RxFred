@@ -4,22 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "rxFred",
+    name: "RxFred",
     products: [
         .library(
-            name: "rxFred",
-            targets: ["rxFred"]),
+            name: "RxFred",
+            targets: ["RxFred"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/siegesmund/fred", .branch("master")),
+        .package(url: "https://github.com/siegesmund/Fred", .branch("master")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.0")
     ],
     targets: [
         .target(
-            name: "rxFred",
-            dependencies: ["fred", "RxSwift"]),
+            name: "RxFred",
+            dependencies: ["Fred", "RxSwift"]),
         .testTarget(
-            name: "rxFredTests",
-            dependencies: ["rxFred"]),
+            name: "RxFredTests",
+            dependencies: ["RxFred"]),
     ]
 )

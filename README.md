@@ -1,3 +1,3 @@
-# rxFred
+# RxFred
 
-A description of this package.
+Reactive extensions for [Fred]("https://github.com/siegesmund/fred")

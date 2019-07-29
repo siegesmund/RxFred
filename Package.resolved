@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "fred",
-        "repositoryURL": "https://github.com/siegesmund/fred",
+        "package": "Fred",
+        "repositoryURL": "https://github.com/siegesmund/Fred",
         "state": {
           "branch": "master",
-          "revision": "1f97d5799f2aa523e387e1a52812c5cf63fe9007",
+          "revision": "4ac32b9918aafced67cb7324f4a61f85c65f780a",
           "version": null
         }
       },
