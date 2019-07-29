@@ -1,3 +1,3 @@
 # RxFred
 
-Reactive extensions for [Fred]("https://github.com/siegesmund/fred")
+Reactive extensions for [Fred]("https://github.com/siegesmund/Fred")
